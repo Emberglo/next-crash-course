@@ -7,7 +7,7 @@ const ArticleItem = ({article}: {article:any}) => {
       {/* legacyBehavior is needed to have an a tag inside a Link */}
       <a className={articleStyles.card}>
         <h3>{article.title} &rarr;</h3>
-        <p>{article.body}</p>
+        <p>{article.excerpt}</p>
       </a>
     </Link>
   )
